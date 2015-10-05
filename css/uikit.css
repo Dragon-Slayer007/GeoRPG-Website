@@ -323,7 +323,7 @@ pre {
   /* 1 */
   overflow: auto;
 }
-/* Selection pseudo-element 
+/* Selection pseudo-element
  ========================================================================== */
 ::-moz-selection {
   background: #3399ff;
@@ -1872,13 +1872,13 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   line-height: 40px;
   /* 2 */
   color: #444444;
-  font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-family: 'VT323';
   font-weight: normal;
 }
 /* Appear not as link */
 .uk-navbar-nav > li > a[href='#'] {
-  cursor: text;
+  /*cursor: text;*/
 }
 /*
  * Hover
