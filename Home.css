@@ -3,3 +3,5 @@ ul,h1 { font-family: 'VT323' !important; }
 #logo {  background-color: blue;  height: 40px;  width: 150px;  float: left;  padding-left: 30px;}
 
 .uk-block, .uk-block-primary{ padding-left:20px; }
+
+.space{}
