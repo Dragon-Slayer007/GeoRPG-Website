@@ -12,11 +12,29 @@
     <!-- link all the styles -->
     <link rel="stylesheet" href="css/uikit.css" />
     <link rel="stylesheet" href="Home.css" />
-    <link rel="stylesheet" href="font-awesome.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- link all the scripts -->
     <script src="js/jquery.js"></script>
     <script src="js/uikit.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+
+    <!-- <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom:3,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script> -->
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,19 +44,19 @@
   </head>
 	<body>
 		<nav class="uk-navbar">
-		<div id = "logo"></div>
-    <div class="uk-navbar-flip">
-        <ul class="uk-navbar-nav">
-            <li><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Login | Register</a></li>
-        </ul>
-    </div>
-</nav>
+			<div id = "logo"></div>
+			    <div class="uk-navbar-flip">
+			        <ul class="uk-navbar-nav">
+			            <li><a href="#">Home&nbsp;<i class="fa fa-home fa-fw"></i></a></li>
+									<li><a href="#">About Us&nbsp;<i class="fa fa-question fa-fw"></i></a></li>
+									<li><a href="#">Contact&nbsp;<i class="fa fa-envelope fa-fw"></i></a></li>
+									<li><a href="#">Login | Register&nbsp;<i class="fa fa-key fa-fw"></i></a></li>
+			        </ul>
+			    </div>
+		</nav>
+    <!--<div id="map"></div>-->
+		<!-- Have the Google Maps Feed Populate within this div-->
 
-<!-- Have the Google Maps Feed Populate within this div-->
 
-<div class="uk-block uk-block-secondary">...</div>
   </body>
 </html>
