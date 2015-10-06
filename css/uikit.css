@@ -1309,6 +1309,7 @@ iframe {
   box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;
+  ;
 }
 /* Phone landscape and bigger */
 @media (min-width: 768px) {
@@ -1374,13 +1375,16 @@ iframe {
 /*
  * Primary
  */
-.uk-block-primary {
-  background: #00a8e6;
+.uk-block-secondary {
+  background: #222222;
+  margin-left: 20%;
+  margin-right:20%;
+  margin-top: 10%;
 }
 /*
  * Secondary
  */
-.uk-block-secondary {
+.uk-block-primary {
   background: #222222;
 }
 /*
